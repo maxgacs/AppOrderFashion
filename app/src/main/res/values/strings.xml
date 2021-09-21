@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">fashion</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+
+    <string name="user_image_url">assets/uploadfile/user/</string>
+    <string name="main_product_image_url">assets/uploadfile/mainProduct/</string>
+    <string name="product_image_url">storage/</string>
+    <string name="material_image_url">assets/uploadfile/material/</string>
+    <string name="deposit_image_url">assets/uploadfile/deposit/</string>
+    <string name="payment_image_url">assets/uploadfile/payment/</string>
+    <string name="salary_image_url">assets/uploadfile/salary/</string>
+    <string name="salarycompensation_image_url">assets/uploadfile/compensation/</string>
+
+    <string name="root_url">http://192.168.1.99:8000/</string>
+    <string name="Managerlogin_url">api/manager/login</string>
+    <string name="viewOneManager_url">api/viewOneManager/</string>
+
+    <string name="login_url">api/user/login</string>
+    <string name="createUsers_url">api/createUser/</string>
+    <string name="viewUsers_url">api/viewUsers/</string>
+    <string name="viewOneUser_url">api/viewOneUser/</string>
+    <string name="updateUsers_url">api/updateUsers/</string>
+    <string name="updateImageUser_url">api/updateImageUser/</string>
+    <string name="Empdelete_url">api/Empdelete/</string>
+
+    <string name="Emplogin_url">api/Emp/login</string>
+    <string name="createEmp_url">api/createEmp/</string>
+    <string name="viewEmp_url">api/viewEmp/</string>
+    <string name="viewWaitingEmp_url">api/viewWaitingEmp/</string>
+    <string name="viewOneEmp_url">api/viewOneEmp/</string>
+    <string name="SelectIDEmployeesDESC_url">api/SelectIDEmployeesDESC/</string>
+    <string name="updateEmp_url">api/updateEmp/</string>
+    <string name="updateEmpStat3_url">api/updateEmpStat3/</string>
+    <string name="updateEmpStat_url">api/updateEmpStat/</string>
+    <string name="updateImageEmp_url">api/updateImageEmp/</string>
+    <string name="updateStatusEmp_url">api/updateStatusEmp/</string>
+    <string name="SelectEmployeesTypeID1Updated_atASC_url">api/SelectEmployeesTypeID1Updated_atASC/</string>
+    <string name="SelectEmployeesTypeID2Updated_atASC_url">api/SelectEmployeesTypeID2Updated_atASC/</string>
+    <string name="SelectEmployeesTypeID3Updated_atASC_url">api/SelectEmployeesTypeID3Updated_atASC/</string>
+    <string name="SelectEmployeesTypeID4Updated_atASC_url">api/SelectEmployeesTypeID4Updated_atASC/</string>
+
+    <string name="viewMainProductType_url">api/viewMainProductType/</string>
+    <string name="viewProductType_url">api/viewProductType/</string>
+    <string name="viewProductOne_url">api/viewProductOne/</string>
+    <string name="updateProduct_url">api/updateProduct/</string>
+
+    <string name="viewChoose_Mat_url">api/viewChoose_Mat/</string>
+    <string name="viewChoose_MatCOUNT_url">api/viewChoose_MatCOUNT/</string>
+    <string name="viewChoose_Mat_materialTypeName_url">api/viewChoose_Mat_materialTypeName/</string>
+    <string name="viewChoose_MatOne_url">api/viewChoose_MatOne/</string>
+    <string name="viewChoose_Mat_Sp_url">api/viewChoose_Mat_Sp/</string>
+    <string name="viewChoose_Mat_SpOne_url">api/viewChoose_Mat_SpOne/</string>
+
+    <string name="AddCart_url">api/AddCart/</string>
+    <string name="viewCart_url">api/viewCart/</string>
+    <string name="viewMaterialID_url">api/viewMaterialID/</string>
+    <string name="viewCartUser_url">api/viewCartUser/</string>
+    <string name="viewCartUserColorGROUP_url">api/viewCartUserColorGROUP/</string>
+    <string name="viewONECartUserProductID_url">api/viewONECartUserProductID/</string>
+    <string name="viewProductCartUser_url">api/viewProductCartUser/</string>
+    <string name="cartdelete_url">api/cartdelete/</string>
+    <string name="HalfpriceTotal_url">api/HalfpriceTotal/</string>
+    <string name="SUMpriceTotal_url">api/SUMpriceTotal/</string>
+    <string name="SUMdataTotal_url">api/SUMdataTotal/</string>
+
+    <string name="AddOrder_url">api/AddOrder/</string>
+    <string name="updateOrderData_url">api/updateOrderData/</string>
+    <string name="updateDateline_url">api/updateDateline/</string>
+    <string name="updateOrderCancel_url">api/updateOrderCancel/</string>
+    <string name="updateOrderComfirm_url">api/updateOrderComfirm/</string>
+    <string name="updateOrderCancelEmp_url">api/updateOrderCancelEmp/</string>
+    <string name="updateOrderCancelCusMoney_url">api/updateOrderCancelCusMoney/</string>
+    <string name="ViewSUM1_4Dateline_url">api/ViewSUM1_4Dateline/</string>
+    <string name="ViewSUM3Dateline_url">api/ViewSUM3Dateline/</string>
+    <string name="ViewSUM3Dateline2_url">api/ViewSUM3Dateline2/</string>
+    <string name="viewOrderID_url">api/viewOrderID/</string>
+    <string name="viewOrderDESC_url">api/viewOrderDESC/</string>
+    <string name="viewQuanDatelineOrderID_url">api/viewQuanDatelineOrderID/</string>
+    <string name="viewOrderStepStatusASC_url">api/viewOrderStepStatusASC/</string>
+    <string name="viewOrderStepStatusPayASC_url">api/viewOrderStepStatusPayASC/</string>
+    <string name="viewOrderUserStepStatusASC_url">api/viewOrderUserStepStatusASC/</string>
+    <string name="viewOrderUserStepStatusPayASC_url">api/viewOrderUserStepStatusPayASC/</string>
+    <string name="viewOrderEmpStepStatusASC_url">api/viewOrderEmpStepStatusASC/</string>
+    <string name="AddOrder_Details_url">api/AddOrder_Details/</string>
+    <string name="viewOrderUser_url">api/viewOrderUser/</string>
+    <string name="viewOrderIDOneUser_url">api/viewOrderIDOneUser/</string>
+    <string name="viewOrderUserColorGROUP_url">api/viewOrderUserColorGROUP/</string>
+    <string name="viewOrderUserColorGROUPJobEmp3_url">api/viewOrderUserColorGROUPJobEmp3/</string>
+    <string name="viewONEOrderUserProductID_url">api/viewONEOrderUserProductID/</string>
+    <string name="viewONEOrderUserProductIDJobEmp3_url">api/viewONEOrderUserProductIDJobEmp3/</string>
+    <string name="SUMOrderpriceTotal_url">api/SUMOrderpriceTotal/</string>
+    <string name="OrderQuanUsed_url">api/OrderQuanUsed/</string>
+    <string name="OrderQuanUsedSp_url">api/OrderQuanUsedSp/</string>
+    <string name="OrderCutRate_url">api/OrderCutRate/</string>
+    <string name="ViewStepStatus_url">api/ViewStepStatus/</string>
+    <string name="ViewOrderCreated_at_url">api/ViewOrderCreated_at/</string>
+    <string name="viewOrderStepStatusIDWaitingASC_url">api/viewOrderStepStatusIDWaitingASC/</string>
+    <string name="viewOrderStepStatusIDWaitingASCType3_url">api/viewOrderStepStatusIDWaitingASCType3/</string>
+    <string name="SUMpriceTotalOrder_url">api/SUMpriceTotalOrder/</string>
+    <string name="ViewSoldProductID_url">api/ViewSoldProductID/</string>
+    <string name="updateImageCompensation_url">api/updateImageCompensation/</string>
+    <string name="viewOrderText_alert_url">api/viewOrderText_alert/</string>
+    <string name="updateOrderText_alertStatus_url">api/updateOrderText_alertStatus/</string>
+
+
+    <string name="AddDeposit_url">api/AddDeposit/</string>
+    <string name="viewDepositDESC_url">api/viewDepositDESC/</string>
+    <string name="viewDepositOrderID_url">api/viewDepositOrderID/</string>
+    <string name="AddImageDeposit_url">api/AddImageDeposit/</string>
+    <string name="QuanUsed_url">api/QuanUsed/</string>
+    <string name="QuanUsedSp_url">api/QuanUsedSp/</string>
+
+    <string name="AddPayment_url">api/AddPayment/</string>
+    <string name="viewPaymentOrderID_url">api/viewPaymentOrderID/</string>
+
+    <string name="AddSalary_url">api/AddSalary/</string>
+    <string name="AddSalaryEmpCut_url">api/AddSalaryEmpCut/</string>
+    <string name="viewOrderEmpComfirm_url">api/viewOrderEmpComfirm/</string>
+    <string name="updateSalaryStat_url">api/updateSalaryStat/</string>
+    <string name="updateSalaryStatStartDate_url">api/updateSalaryStatStartDate/</string>
+    <string name="updateSalaryStatEndDate_url">api/updateSalaryStatEndDate/</string>
+    <string name="viewSalaryWaiting_url">api/viewSalaryWaiting/</string>
+    <string name="updateSalaryWaiting_url">api/updateSalaryWaiting/</string>
+    <string name="UpImageSalary_url">api/UpImageSalary/</string>
+    <string name="viewSalaryDESC_url">api/viewSalaryDESC/</string>
+    <string name="viewSalaryStatusOrder2_url">api/viewSalaryStatusOrder2/</string>
+    <string name="viewSalaryOne_url">api/viewSalaryOne/</string>
+    <string name="viewSalaryEmpID_url">api/viewSalaryEmpID/</string>
+    <string name="viewQuanEndDateOrderID_url">api/viewQuanEndDateOrderID/</string>
+    <string name="updateSalaryMoneyEmp_url">api/updateSalaryMoneyEmp/</string>
+    <string name="viewSalaryJobEmpCutNull_url">api/viewSalaryJobEmpCutNull/</string>
+
+    <string name="updateMaterialSize_url">api/updateMaterialSize/</string>
+    <string name="viewMaterial_url">api/viewMaterial/</string>
+
+    <string name="updateMaterial_SpSize_url">api/updateMaterial_SpSize/</string>
+    <string name="viewMaterial_Sp_url">api/viewMaterial_Sp/</string>
+
+    <string name="viewbank_url">api/viewbank/</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_up_image">MainActivityUpImage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_select_menu_emp">SelectMenuEmpActivity</string>
+    <string name="title_activity_login_ma">LoginMaActivity</string>
+    <string name="title_activity_login_admin">LoginAdminActivity</string>
+
+</resources>

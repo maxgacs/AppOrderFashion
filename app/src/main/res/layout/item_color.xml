@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtColor"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="สี"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtF"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="XS"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtS"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="S"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtM"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="M"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtL"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="L"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtXL"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="XL"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt2XL"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="2XL"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt3XL"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="3XL"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="รวม"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

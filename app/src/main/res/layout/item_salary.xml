@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="41dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            app:layout_constraintEnd_toStartOf="@+id/viewLine39"
+            app:layout_constraintStart_toEndOf="@+id/viewLine42"
+            app:layout_constraintTop_toBottomOf="@+id/viewLine40"
+            app:srcCompat="@drawable/calendar" />
+
+        <View
+            android:id="@+id/viewLine39"
+            android:layout_width="2dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:layout_constraintStart_toEndOf="@id/imageView34"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine40"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewLine41"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView34" />
+
+        <View
+            android:id="@+id/viewLine42"
+            android:layout_width="2dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:layout_constraintEnd_toStartOf="@id/imageView34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="ออเดอร์ที่ทำ :  "
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/OrderName"
+            app:layout_constraintStart_toStartOf="@+id/dateOrderFinish"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView148"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="บาท"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/dateOrderFinish"
+            app:layout_constraintStart_toEndOf="@+id/salaryPrice"
+            app:layout_constraintTop_toTopOf="@+id/salaryPrice" />
+
+        <View
+            android:id="@+id/viewLine38"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dateOrderFinish" />
+
+        <TextView
+            android:id="@+id/OrderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="00(เลขออเดอร์)"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/dateOrderFinish"
+            app:layout_constraintStart_toEndOf="@+id/textView76"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="60dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:text="ดู"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp" />
+
+        <TextView
+            android:id="@+id/dateOrderFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="0000-00-00 (วันที่ส่งงาน)"
+            android:textColor="@color/darkgray"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/button"
+            app:layout_constraintStart_toEndOf="@+id/viewLine39"
+            app:layout_constraintTop_toBottomOf="@+id/salaryPrice" />
+
+        <TextView
+            android:id="@+id/salaryPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="10000"
+            android:textColor="#459F23"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView148"
+            app:layout_constraintStart_toStartOf="@+id/dateOrderFinish"
+            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
